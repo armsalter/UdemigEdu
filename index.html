@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UDEMİG EDU</title>
+    <!--CSS LINK-->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!--FONT AWESOME CDN LINK-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <!--LOGO-->
+      <a href="#" class="logo"> <span>Udemig</span>Education </a>
+      <!--NAV-->
+      <nav>
+        <li>
+          <a href="#">HOME</a>
+        </li>
+        <li>
+          <a href="#">INFORMATION</a>
+        </li>
+        <li>
+          <a href="#">ABOUT US</a>
+        </li>
+        <li>
+          <a href="#">COURSES</a>
+        </li>
+        <li>
+          <a href="#">CONTACT US</a>
+        </li>
+      </nav>
+      <!--RIGHT AREA-->
+      <div class="right-area">
+        <a href="#" class="social-links">Follow Us</a>
+        <a href="#" class="social-links">
+          <i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="#" class="social-links">
+          <i class="fa-brands fa-x-twitter"></i
+        ></a>
+        <a href="#" class="social-links">
+          <i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="#" id="menu-btn"> <i class="fa-solid fa-bars"></i></a>
+      </div>
+    </header>
+    <!--HOME-->
+    <section id="home">
+      <div class="home-text">
+        <h5>LET'S</h5>
+        <h1>Planning your own future</h1>
+        <p>
+          Get the opportunity for a great future by stepping into the sofware
+          world with us
+        </p>
+        <button>Get Started</button>
+      </div>
+    </section>
+    <!--EDU-->
+    <section id="educations">
+      <div class="educations-content">
+        <div class="educations-card">
+          <div class="educations-card-image">
+            <img src="./assets/frontend-img.png" alt="frontend-card-img" />
+          </div>
+          <h4>Frontend</h4>
+        </div>
+        <div class="educations-card">
+          <div class="educations-card-image">
+            <img src="./assets/backend-course.png" alt="backend-card-img" />
+          </div>
+          <h4>Backend</h4>
+        </div>
+        <div class="educations-card">
+          <div class="educations-card-image">
+            <img src="./assets/native-img.png" alt="native-card-img" />
+          </div>
+          <h4>React Native</h4>
+        </div>
+        <div class="educations-card">
+          <div class="educations-card-image">
+            <img src="./assets/english-img.jpeg" alt="english-card-img" />
+          </div>
+          <h4>English</h4>
+        </div>
+      </div>
+    </section>
+    <!--About Us-->
+    <section id="about-us">
+      <div class="about-us-image">
+        <img src="./assets/udemig-logo.jpeg" alt="about-us" />
+      </div>
+      <div class="about-us-text">
+        <h5>WHO ARE WE</h5>
+        <h2>Why are we the best software academy?</h2>
+        <p>
+          We, as Udemig Software Academy, have many valid points to claim that
+          we are the best in the industry. Why we offer. First of all, with our
+          innovative education methodology, we provide our students with only
+          theoretical knowledge. but we also teach how this knowledge can be
+          applied in real-world scenarios. Our training programs are designed to
+          adapt to the needs of the ever-changing world of technology. are
+          designed and these programs are given by instructors who are experts
+          in their fields.
+        </p>
+        <button>Read More</button>
+      </div>
+    </section>
+    <!--Popular Courses-->
+    <section id="popular-courses">
+      <div class="center">
+        <h2>Popular Courses</h2>
+      </div>
+
+      <div class="content">
+        <div class="card">
+          <img src="./assets/frontend-course-img.jpeg" alt="card-image" />
+          <div class="info">
+            <h4><i class="fa-solid fa-book"></i> Frontend Course</h4>
+            <h4><i class="fa-regular fa-clock"></i> 6 Months</h4>
+            <h4><i class="fa-solid fa-dollar-sign"></i> 2000</h4>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/backend-img.png" alt="card-image" />
+          <div class="info">
+            <h4><i class="fa-solid fa-book"></i> Backend Course</h4>
+            <h4><i class="fa-regular fa-clock"></i> 4 Months</h4>
+            <h4><i class="fa-solid fa-dollar-sign"></i> 750</h4>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/native-img.png" alt="card-image" />
+          <div class="info">
+            <h4><i class="fa-solid fa-book"></i> React Native Course</h4>
+            <h4><i class="fa-regular fa-clock"></i> 4 Months</h4>
+            <h4><i class="fa-solid fa-dollar-sign"></i> 750</h4>
+          </div>
+        </div>
+      </div>
+      <div class="center">
+        <button>See Courses</button>
+      </div>
+    </section>
+    <!--Contact Us-->
+    <section id="contact-us">
+      <div class="contact-us-image">
+        <img src="./assets/contact-us.jpeg" alt="contact-image" />
+      </div>
+      <form class="contact-us-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+        <label for="surname">Surname</label>
+        <input type="text" id="surname" />
+        <label for="message">Your Message :</label>
+        <textarea id="message"></textarea>
+        <button>Send</button>
+      </form>
+    </section>
+    <!--Footer-->
+    <footer>
+      <div class="footer-content">
+        <div class="box">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#">Frontend Course</a></li>
+            <li><a href="#">Backend Course</a></li>
+            <li><a href="#">React Native Course</a></li>
+            <li><a href="#">English Course</a></li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>About Us</h3>
+          <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Who Are We</a></li>
+            <li><a href="#">Our Mission</a></li>
+            <li><a href="#">Our Vision</a></li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Help</h3>
+          <ul>
+            <li><a href="#">Faqs</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Social Medias</h3>
+          <div class="social-media">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">
+        2025 &copy <span>Udemig</span>.All rights reserved.
+      </p>
+    </footer>
+    <!--JS CONNECT-->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
